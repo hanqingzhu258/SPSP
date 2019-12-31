@@ -1,0 +1,34 @@
+# Config File for the Instance Generator
+
+task.number = UniformInt
+task.number.parameter.minvalue = 30
+task.number.parameter.maxvalue = 30
+
+task.cost = Round
+task.cost.parameter.distribution = Normal
+task.cost.parameter.distribution.parameter.mu = 10
+task.cost.parameter.distribution.parameter.sigma = 5
+
+task.skill = UniformInt
+task.skill.parameter.minvalue = 2
+task.skill.parameter.maxvalue = 3
+
+graph.e-v-rate = Normal
+graph.e-v-rate.parameter.mu = 1.5
+graph.e-v-rate.parameter.sigma = 0.5
+
+employee.number = UniformInt
+employee.number.parameter.minvalue = 15
+employee.number.parameter.maxvalue = 15
+
+employee.salary = Normal
+employee.salary.parameter.mu = 10000
+employee.salary.parameter.sigma = 1000
+
+employee.skill = UniformInt
+employee.skill.parameter.minvalue = 6
+employee.skill.parameter.maxvalue = 7
+
+skill.number = UniformInt
+skill.number.parameter.minvalue = 10
+skill.number.parameter.maxvalue = 10
